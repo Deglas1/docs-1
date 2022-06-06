@@ -13,3 +13,4 @@ name: "function",
 code: `$function`
 })
 ```
+![Путь к изображению](.docs/dev/assets/usdfunction.png)
