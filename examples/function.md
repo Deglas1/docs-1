@@ -13,4 +13,4 @@ name: "function",
 code: `$function`
 })
 ```
-![Путь к изображению](.docs/dev/assets/usdfunction.png)
+![Путь к изображению](https://github.com/weredok/docs/blob/dev/assets/usdfunction.png)
