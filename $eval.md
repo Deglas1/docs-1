@@ -15,4 +15,5 @@ bot.command({
 name: "eval",
 code: `$eval[$message;no;yes;yes]
 $onlyForIDs[$botOwnerID;Вы не разработчик бота!]`
+})
 ```
