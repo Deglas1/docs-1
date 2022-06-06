@@ -41,9 +41,7 @@
     
 ## Ссылки
 {% embed url="https://akarui.leref.ga/v/5" %}
-
-- [Официальный сервер Akarui Development](https://aoi.js.org/invite)
-- [Официальная документация  aoi.js](https://akarui.leref.ga/)
-- [Наше сообщество](https://discord.gg/EpXEcn6Bzc)
-- [Наш сайт с документацией](https://weredok.gitbook.io/docs/)
-- [Наш документационный бот](https://docs.weredok.ga)
+{% embed url="https://aoi.js.org/invite" %}
+{ % embed url="https://akarui.leref.ga/" %}
+{ % embed title="Community" %}
+{ % embed url="https://discord.gg/EpXEcn6Bzc" % }
