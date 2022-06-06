@@ -40,7 +40,7 @@
 
     
 ## Ссылки
-{% embed url="https://github.com/GitbookIO/git-sync-normalization" %}
+{% embed url="https://akarui.leref.ga/v/5" %}
 
 - [Официальный сервер Akarui Development](https://aoi.js.org/invite)
 - [Официальная документация  aoi.js](https://akarui.leref.ga/)
