@@ -13,4 +13,3 @@ name: "function",
 code: `$function`
 })
 ```
-![Screenshot](https://user-images.githubusercontent.com/93865249/172228132-c13f6cf2-8bd4-4120-a7c4-012ea838febd.jpg)
