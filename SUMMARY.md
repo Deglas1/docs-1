@@ -1,9 +1,9 @@
 # Документация aoi.js
 
-- Возможности
+   - [Introduction](introduction/README)
 
-    - [Интерактивные взаимодействия](introduction/interaction) 
+       - [Интерактивные взаимодействия](introduction/interaction) 
           
-    - [Музыкальные функции](introduction/music)
+       - [Музыкальные функции](introduction/music)
           
-    - [Загрузчик команд](introduction/command-handler)
+       - [Загрузчик команд](introduction/command-handler)
