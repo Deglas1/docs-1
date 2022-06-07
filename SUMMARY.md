@@ -2,8 +2,8 @@
 
 - Возможности
 
-    - [Интерактивные взаимодействия](https://github.com/Weredok/docs/blob/dev/introduction/interaction) 
+    - [Интерактивные взаимодействия](introduction/interaction) 
           
-    - [Музыкальные функции](https://github.com/Weredok/docs/blob/dev/introduction/music)
+    - [Музыкальные функции](introduction/music)
           
-    - [Загрузчик команд](https://github.com/Weredok/docs/blob/dev/introduction/command-handler)
+    - [Загрузчик команд](introduction/command-handler)
