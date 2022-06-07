@@ -2,7 +2,7 @@
 
 * [О документации](README)
   * [Возможности](introduction/README)
-    * [Интерактивные взаимодействия](introduction/interaction.md) 
+    * [Интерактивные взаимодействия](introduction/interactions.md) 
      * [Музыкальные функции](introduction/music)
      * [Загрузчик команд](introduction/command-handler)
 .
