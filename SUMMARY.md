@@ -1,6 +1,6 @@
 # Документация aoi.js
 
-* [О документации](README)
+* [О документации](README.md)
   * [Возможности](introduction/README.md)
     * [Интерактивные взаимодействия](introduction/interactions.md) 
      * [Музыкальные функции](introduction/music.md)
