@@ -1,0 +1,4 @@
+root: ./intoduction/
+structure:  
+    readme: ./home.md
+    summary: ./SUMMARY.md
