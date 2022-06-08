@@ -18,13 +18,14 @@
 module.exports = {
 name: "if",
 $if: "v4",
-code: `$if[$isNumber[$message]==1;]
+code: `$if[$isNumber[$message]==true;]
 Это число!
 $else
 Это не число!
 $endif`
 }
 ```
+2. Проверяет какое число указал пользователь
 ```javascript
 module.exports = {
 name: "if2",
@@ -39,6 +40,7 @@ $else
 $endif`
 }
 ```
+3. Отвечает на слово "привет"
 ```javascript
 module.exports = {
 name: "if3",
