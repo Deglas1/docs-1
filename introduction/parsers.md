@@ -59,6 +59,9 @@ code: `$title[1;Вы не разработчик бота!]`
 
 JSON n
 
+{ % hint style='danger' % } Эта функция работает нестабильно / неправильно: (объяснение) { % endhint % }
+
+
 - `"content": " "` -
 - `"embeds": "{newEmbed:...}"` - 
 - `"components": "{actionRow:...}"` -
@@ -67,6 +70,8 @@ JSON n
    - `ephemeral` - true/false
    - `{deleteIn: }` - 
    - `{editIn: :...}` -
+
+
 
 ## DJS-
 
