@@ -21,7 +21,7 @@ $image[индекс;ссылка]
 
 ```javascript
 bot.command({
-  name: '',
+  name: 'embed-image',
   code: `
   $image[1;$useravatar]
   `
