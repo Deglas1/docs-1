@@ -1,6 +1,3 @@
----
-description: Добавить описание эмбеду
----
 
 # $description
 
