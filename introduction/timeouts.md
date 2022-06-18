@@ -15,4 +15,16 @@ code: `$sendDm[$timeoutData[userid];$timeoutData[message]]` //Отправляе
 }]
 ```
 
-Так-же у них существуют собственные айди, при помощи которых можно останавливать их действие. Выполняется это при помощи функции $stopTimeout
+Так-же у таймеров существуют собственные айди, при помощи которых можно останавливать их действие. Выполняется это при помощи функции $stopTimeout:
+```javascript
+bot.command({
+  name: 'timeout',
+  code: `
+  $setVar[id;$setTimeout[remind;2h;{};false;true]]
+  `
+});
+
+bot.command({
+name: "stoptimeout",
+code: `$stopTimeout[$getVar[id]]`
+```
