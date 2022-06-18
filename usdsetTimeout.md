@@ -1,12 +1,12 @@
 
 # $setTimeout
 
-Рассказ о функции и о том как онa работает.
+Устанавливает таймер на заданное время и выполняет код после истечения времени. Является функцией классического JS, поэтому нужно указывать на каком сервере и канале должна выполнится команда.
 
 ### Использование
  
 ```php
-$setTimeout[fields]
+$setTimeout[название;длительность;переменные;вернуть айди?;пульсирование]
 ```
 
 ### Опции
@@ -25,10 +25,14 @@ $setTimeout[fields]
 
 ```javascript
 bot.command({
-  name: 'function-name',
+  name: 'timeout',
   code: `
-  $function[index;aoijs]
+  $setTimeout[remind;2h;{};false;no]
   `
-// Возвращает: ...
 });
+
+bot.timeoutCommand({
+name: "remind",
+code: `$log[Привет!]`
+})
 ```
