@@ -20,7 +20,7 @@ $addTimestamp[индекс]
 
 ```javascript
 bot.command({
-  name: '',
+  name: 'embed-timestamp',
   code: `
   $title[1; Команда была вызвана] 
   $addTimestamp[1]
