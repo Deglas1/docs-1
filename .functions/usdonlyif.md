@@ -22,10 +22,10 @@ $onlyIf[условие;ошибка]
 
 ```javascript
 bot.command({
-  name: 'send-dm',
+  name: 'say',
   code: `
-  $sendDM[$noMentionMessage;$mentioned[1]]
-  $onlyif[$isUserDMEnabled[$mentioned[1]]==true;Я не могу написать ему в личные сообщения]
+  $message
+  $onlyif[$message!=;Введите сообщение]
   `
 });
 ```
