@@ -44,5 +44,17 @@ bot.command({
 // Возвращает: Added Nightcore - All My Friends Are Fake to queue
 });
 ```
+
+```javascript
+bot.command({
+  name: 'play-track-youtube-playlist',
+  code: `
+  $playTrack[youtube;https://youtube/]
+  $joinVC
+  `
+// Возвращает: Added 
+});
+```
+
  
  
