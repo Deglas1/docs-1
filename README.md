@@ -12,7 +12,7 @@
 **Русскоязычная документация для aoi.js: Возможности, Обратные Вызовы, Функции и не только!**
 
 
-Разработано [Weredok#4565](https://discord.com/users/828198636549832737)
+Разработано [Weredok#4565](https://discord.com/users/828198636549832737) и контрибуторами.
 
 [npm-image]: http://img.shields.io/npm/v/aoi.js.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/aoi.js
@@ -30,7 +30,7 @@
 - Интегрированная документация в нашего бота - aoi.js docs
 - В разработке!
  
-## Akarui Development
+## Пакет от Akarui Development
 
 <p align="center">
   <a href="https://aoi.js.org/invite">
