@@ -24,6 +24,7 @@ bot.command({
   name: 'separator',
   code: `
   $numberSeparator[1000000;.]
+// Вернёт 1.000.000
   `
 });
 ```
