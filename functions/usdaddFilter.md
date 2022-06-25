@@ -3,6 +3,9 @@
 
 Добавляет фильтр к воспроизведению и перезапускает его
 
+{ % hint style='info' %} Список доступных фильтров находится на [этом сайте](https://ffmpeg.org/ffmpeg-filters.html#Audio-Filters) { %endhint% }
+
+
 ### Использование
  
 ```php
