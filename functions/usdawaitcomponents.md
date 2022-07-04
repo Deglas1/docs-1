@@ -22,7 +22,10 @@ $awaitComponents[messageID;userFilter;customIDs;cmds;errorMsg?;uses?;data?]
 bot.command({
   name: '$awaitComponents',
   code: `
-$awaitComponents[messageID;userFilter;customIDs;cmds;errorMsg?;uses?;data?]`
+$awaitComponents[$messageID;everyone;hi;bye;gn; l ;1;{}]
+Hi 
+$addButton[1;Hi;2;hi]
+$addButton[1;Bye;2;bye]`
 // Возвращает: ...
 })
 ```

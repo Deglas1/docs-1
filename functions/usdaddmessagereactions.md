@@ -18,7 +18,7 @@ $addMessageReactions[channelId;messageId;...reactions]
 bot.command({
   name: '$addMessageReactions',
   code: `
-$addMessageReactions[channelId;messageId;...reactions]`
+$addMessageReactions[$channelID;$messageId;:joy:]`
 // Возвращает: ...
 })
 ```

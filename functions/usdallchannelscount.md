@@ -5,6 +5,12 @@ desc
 $allChannelsCount[type]
 ```
 
+Voice
+Text
+Announcements
+Stage
+Thread
+
 ### Опции
 
 | Опция | Описание | Тип | Обязательно |
@@ -16,7 +22,7 @@ $allChannelsCount[type]
 bot.command({
   name: '$allChannelsCount',
   code: `
-$allChannelsCount[type]`
-// Возвращает: ...
+$allChannelsCount[Text]`
+// Возвращает: 24
 })
 ```

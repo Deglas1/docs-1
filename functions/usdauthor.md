@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$authorUsage Not Found
+$author[]
 ```
 
 ### Опции
@@ -16,7 +16,7 @@ $authorUsage Not Found
 bot.command({
   name: '$author',
   code: `
-$authorUsage Not Found`
+$author[1;$userTag;$authorAvatar]`
 // Возвращает: ...
 })
 ```

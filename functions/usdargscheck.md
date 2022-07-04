@@ -17,7 +17,7 @@ $argsCheck[condition;errorMessage?]
 bot.command({
   name: '$argsCheck',
   code: `
-$argsCheck[condition;errorMessage?]`
+$argsCheck[>1;]`
 // Возвращает: ...
 })
 ```

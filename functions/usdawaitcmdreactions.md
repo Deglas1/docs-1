@@ -21,7 +21,7 @@ $awaitCmdReactions[userfilter;time;reactions;commands;errorMsg?;awaitData?]
 bot.command({
   name: '$awaitCmdReactions',
   code: `
-$awaitCmdReactions[userfilter;time;reactions;commands;errorMsg?;awaitData?]`
+$awaitCmdReactions[everyone;10min;:joy:;white_check_mark:;reaction; l ;{}]`
 // Возвращает: ...
 })
 ```

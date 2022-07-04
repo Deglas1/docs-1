@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$argsCountnull
+$argsCount
 ```
 
 ## Пример(ы)
@@ -11,7 +11,7 @@ $argsCountnull
 bot.command({
   name: '$argsCount',
   code: `
-$argsCountnull`
-// Возвращает: ...
+$argsCount`
+// Возвращает: 2
 })
 ```

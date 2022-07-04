@@ -2,8 +2,12 @@
 desc
 ### Использование
 ```php
-$allEmojisCount[type]
+$allEmojisCount[type?]
 ```
+
+all
+normal
+animated
 
 ### Опции
 
@@ -16,7 +20,7 @@ $allEmojisCount[type]
 bot.command({
   name: '$allEmojisCount',
   code: `
-$allEmojisCount[type]`
-// Возвращает: ...
+$allEmojisCount[animated]`
+// Возвращает: 20
 })
 ```

@@ -11,7 +11,7 @@ $authorIDnull
 bot.command({
   name: '$authorID',
   code: `
-$authorIDnull`
-// Возвращает: ...
+$authorID`
+// Возвращает
 })
 ```

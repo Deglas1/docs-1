@@ -1,22 +1,30 @@
 # $addTimestamp
-desc
+
+Добавить в подвал эмбеда время вызова команды.
+
 ### Использование
+ 
 ```php
-$addTimestampUsage Not Found
+$addTimestamp[индекс;время]
 ```
 
 ### Опции
 
-| Опция | Описание | Тип | Обязательно |
+
+| Опция | Описание | Тип | Обязательно? |
 |--------|-------------|------|----------|
-| Usage Not Found |  |  | Да |  
-## Пример(ы)
+| индекс | номер эмбеда | число | да |
+| время | кастомное время | текст | нет |
+
+
+## Пример:
 
 ```javascript
 bot.command({
-  name: '$addTimestamp',
+  name: 'embed-timestamp',
   code: `
-$addTimestampUsage Not Found`
-// Возвращает: ...
-})
+  $title[1; Команда была вызвана] 
+  $addTimestamp[1;$datestamp]
+  `
+});
 ```

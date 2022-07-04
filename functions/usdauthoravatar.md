@@ -18,7 +18,7 @@ $authorAvatar[size?;dynamic?;format?]
 bot.command({
   name: '$authorAvatar',
   code: `
-$authorAvatar[size?;dynamic?;format?]`
+$authorAvatar[1024;no;png]`
 // Возвращает: ...
 })
 ```
