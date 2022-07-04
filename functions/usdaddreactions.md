@@ -16,7 +16,7 @@ $addReactions[...reactions]
 bot.command({
   name: '$addReactions',
   code: `
-$addReactions[...reactions]`
+$addReactions[:joy:;:white_check_mark:]`
 // Возвращает: ...
 })
 ```

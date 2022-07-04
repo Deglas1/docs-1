@@ -1,22 +1,32 @@
-# $addFilter
-desc
+
+# $addFilter 
+
+Добавляет фильтр к воспроизведению и перезапускает его
+
+{ % hint style='info' %} Список доступных фильтров находится на [этом сайте](https://ffmpeg.org/ffmpeg-filters.html#Audio-Filters) { %endhint% }
+
+
 ### Использование
+ 
 ```php
-$addFilter[filter]
+$addFilter[объект фильтров]
 ```
 
 ### Опции
 
-| Опция | Описание | Тип | Обязательно |
+
+| Опция | Описание | Тип | Обязательно? |
 |--------|-------------|------|----------|
-| filter |  |  | Да |  
+| объект фильтров | json-объект фильтров, которые вам нужны | ОБЪЕКТ | да |
+
+
 ## Пример(ы)
 
 ```javascript
 bot.command({
-  name: '$addFilter',
+  name: 'add-filter',
   code: `
-$addFilter[filter]`
-// Возвращает: ...
-})
+  $addFilter[{ "bass": "110"}]
+  `
+});
 ```

@@ -19,7 +19,7 @@ $addThreadMember[channelId;threadId;userId;reason]
 bot.command({
   name: '$addThreadMember',
   code: `
-$addThreadMember[channelId;threadId;userId;reason]`
+$addThreadMember[channelId;$channelID;userId;reason]`
 // Возвращает: ...
 })
 ```
