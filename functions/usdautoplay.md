@@ -16,7 +16,7 @@ $autoPlay[type]
 bot.command({
   name: '$autoPlay',
   code: `
-$autoPlay[type]`
+$autoPlay[song]`
 // Возвращает: ...
 })
 ```

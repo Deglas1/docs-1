@@ -18,7 +18,7 @@ $authorBanner[size?;dynamic?;format?]
 bot.command({
   name: '$authorBanner',
   code: `
-$authorBanner[size?;dynamic?;format?]`
+$authorBanner[1024;yes;gif]`
 // Возвращает: ...
 })
 ```

@@ -16,7 +16,7 @@ $authorAccentColor[def?]
 bot.command({
   name: '$authorAccentColor',
   code: `
-$authorAccentColor[def?]`
-// Возвращает: ...
+$authorAccentColor[yes]`
+// Возвращает: #ff0000
 })
 ```

@@ -18,7 +18,7 @@ $attachment[attachment;name;type?]
 bot.command({
   name: '$attachment',
   code: `
-$attachment[attachment;name;type?]`
+$attachment[$authorAvatar;avatar.png;image]`
 // Возвращает: ...
 })
 ```
