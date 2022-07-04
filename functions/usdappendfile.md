@@ -18,7 +18,7 @@ $appendFile[file;text;encode?]
 bot.command({
   name: '$appendFile',
   code: `
-$appendFile[file;text;encode?]`
+$appendFile[handler/variables.js;hi: "bye";no]`
 // Возвращает: ...
 })
 ```

@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$allMembersCountnull
+$allMembersCount
 ```
 
 ## Пример(ы)
@@ -11,7 +11,7 @@ $allMembersCountnull
 bot.command({
   name: '$allMembersCount',
   code: `
-$allMembersCountnull`
-// Возвращает: ...
+$allMembersCount`
+// Возвращает: 69
 })
 ```

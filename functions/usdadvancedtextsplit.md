@@ -17,7 +17,7 @@ $advancedTextSplit[text;...fields]
 bot.command({
   name: '$advancedTextSplit',
   code: `
-$advancedTextSplit[text;...fields]`
-// Возвращает: ...
+$advancedTextSplit[Hello, World!;2;,]`
+// Возвращает: World!
 })
 ```

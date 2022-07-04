@@ -18,7 +18,7 @@ $argsSlice[text;from?;to]
 bot.command({
   name: '$argsSlice',
   code: `
-$argsSlice[text;from?;to]`
-// Возвращает: ...
+$argsSlice[hello, my name is weredok, and you?;2;5]`
+// Возвращает: my name is weredok
 })
 ```

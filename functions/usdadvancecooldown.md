@@ -18,7 +18,7 @@ $advanceCooldown[time;id;errorObject?]
 bot.command({
   name: '$advanceCooldown',
   code: `
-$advanceCooldown[time;id;errorObject?]`
+$advanceCooldown[1s;$authorid;]`
 // Возвращает: ...
 })
 ```
