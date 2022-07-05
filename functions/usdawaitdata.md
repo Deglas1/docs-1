@@ -16,7 +16,7 @@ $awaitData[option]
 bot.command({
   name: '$awaitData',
   code: `
-$awaitData[option]`
-// Возвращает: ...
+$awaitData[hi]
+$loop[1;{ "hi": "bye" };gn]`
 })
 ```

@@ -2,7 +2,7 @@
 desc
 ### Использование
 ```php
-$awaitMessages[channelId;userFilter;time;replies;cmds;errorMsg?;data?;dm]
+$awaitMessages[channelId;userFilter;time;replies;cmds;errorMsg?;data?;dm] 
 ```
 
 ### Опции
@@ -23,7 +23,13 @@ $awaitMessages[channelId;userFilter;time;replies;cmds;errorMsg?;data?;dm]
 bot.command({
   name: '$awaitMessages',
   code: `
-$awaitMessages[channelId;userFilter;time;replies;cmds;errorMsg?;data?;dm]`
-// Возвращает: ...
+$awaitMessages[$channelId;everyone;20m;hi;hi;hello;gn;{};no]`
+})
+```
+```javascript
+bot.command({
+  name: '$awaitMessages',
+  code: `
+$awaitMessages[$channelId;everyone;20m;everything;hi;hello;gn;{};no]`
 })
 ```

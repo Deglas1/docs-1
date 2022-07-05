@@ -1,8 +1,8 @@
 # $addFields
-Добавляет поля для встроенного сообщения
+Добавляет несколько полей для встроенного сообщения
 ### Использование
 ```php
-$addFields[поля]
+$addFields[название:текст:отдельное поле?;поля]
 ```
 
 ### Опции
@@ -16,7 +16,6 @@ $addFields[поля]
 bot.command({
   name: '$addFields',
   code: `
-$addFields[поля]`
-// Возвращает: ...
+$addFields[hello:world:no;how:are you?:no]`
 })
 ```
