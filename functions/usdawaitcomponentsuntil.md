@@ -23,7 +23,6 @@ $awaitComponentsUntil[channelId;messageId;userFilter;time;customIds;awaitCommand
 bot.command({
   name: '$awaitComponentsUntil',
   code: `
-$awaitComponentsUntil[channelId;messageId;userFilter;time;customIds;awaitCommands;errorMsg?;data?]`
-// Возвращает: ...
+$awaitComponentsUntil[$channelId;$messageId;everyone;20min;hi:bye;hello:goodbye;gn;{}]`
 })
 ```

@@ -1,5 +1,5 @@
 # $addMessageReactions
-desc
+Добавляет реакции к указанному сообщению
 ### Использование
 ```php
 $addMessageReactions[channelId;messageId;...reactions]

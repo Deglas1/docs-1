@@ -23,7 +23,6 @@ $awaitMessageReactions[channelId;messageId;filter;time;reactions;commands;errorM
 bot.command({
   name: '$awaitMessageReactions',
   code: `
-$awaitMessageReactions[channelId;messageId;filter;time;reactions;commands;errorMsg?;data?]`
-// Возвращает: ...
+$awaitMessageReactions[$channelId;$messageId;everyone;30min;:joy:;:white_check_mark:;hi;bye;gn;{}]`
 })
 ```

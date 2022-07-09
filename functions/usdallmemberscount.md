@@ -1,5 +1,5 @@
 # $allMembersCount
-desc
+Возвращает общее количество участников со всех серверов, где находится бот
 ### Использование
 ```php
 $allMembersCount
@@ -12,6 +12,6 @@ bot.command({
   name: '$allMembersCount',
   code: `
 $allMembersCount`
-// Возвращает: 69
+// Возвращает: 690
 })
 ```
