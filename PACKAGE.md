@@ -76,7 +76,6 @@ bot.readyCommand({
 
 
 - [@akarui/aoi.music](https://www.npmjs.com/package/@akarui/aoi.music) для музыкальных функций (`npm install @akarui/aoi.music`)
-- [ffmpeg-static](https://www.npmjs.com/package/ffmpeg-static) для звуковых фильтров (`npm install ffmpeg-static`)
 
 ## Разработано Akarui Development
 
