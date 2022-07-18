@@ -1,5 +1,5 @@
 # $packageVersion
-desc
+Показывает версию aoi.js
 ### Использование
 ```php
 $packageVersionnull
@@ -12,6 +12,6 @@ bot.command({
   name: '$packageVersion',
   code: `
 $packageVersionnull`
-// Возвращает: ...
+// Возвращает: 5.5.0
 })
 ```
