@@ -1,6 +1,4 @@
-# Музыкальные функции
-
-{ % hint style='warning' % } Для использования музыкальных функций необходимо установить дополнительный пакет `@akarui/aoi.music` { % endhint % }
+# Музыка
 
 ## Установка
 
@@ -10,7 +8,7 @@ npm i @akarui/aoi.music
 
 ## Настройка в aoi.js
 
-После установки aoi.music, нужно настроить отдельный класс для музыки в aoi.js.
+После установки aoi.music, нужно настроить отдельный класс для музыки в главном файле. Пример:
 
 ```js
 const aoijs = require("aoi.js");
@@ -18,7 +16,7 @@ const aoijs = require("aoi.js");
 const bot = new aoijs.bot({
   token: "DISCORD BOT TOKEN",
   prefix: ".",
-  intents: ["guilds", "guildMessages", "guildVoiceStates"],
+  intents: ["guilds", "guildMessages", "guildVoiceStates"], //Интент guildVoiceStates является обязательным
 });
 
 const loader = new aoijs.LoadCommands(bot);
@@ -27,7 +25,7 @@ const voice = new aoijs.Voice(
   bot,
   {
     cache: {
-      cacheType: "Memory",//Кэш
+      cacheType: "Memory",//Кэширование музыки
       enabled: true,
     }
   },
