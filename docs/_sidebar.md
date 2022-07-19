@@ -1,2 +1,2 @@
 * Возможности
-  * [Музыка](./introduction/music.md)
+  * [Музыка](/introduction/music.md)
