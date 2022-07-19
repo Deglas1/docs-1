@@ -5,11 +5,11 @@
   </a>
 </p>
 
-<h1 align="center">Документация aoi.js</h1>
+<h1 align="center">Документация aoi.js </h1>
 
 <div align="center">
 
-**Документация для aoi.js: Возможности, Обратные Вызовы, Функции и не только!**
+**Документация для aoi.js: Возможности, Обратные Вызовы, Функции и Информация о пакете!**
 
 
 Разработано [Weredok#4565](https://discord.com/users/828198636549832737) и контрибуторами.
@@ -30,7 +30,7 @@
 - Интегрированная документация в нашего бота - aoi.js docs
 - В разработке!
  
-## Пакет от Akarui Development
+## Это пакет от Akarui Development
 
 <p align="center">
   <a href="https://aoi.js.org/invite">
