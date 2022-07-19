@@ -5,7 +5,7 @@
   </a>
 </p>
 
-<h1 align="center">Документация aoi.js</h1>
+<h1 align="center">Документация aoi.js </h1>
 
 <div align="center">
 
@@ -30,7 +30,7 @@
 - Интегрированная документация в нашего бота - aoi.js docs
 - В разработке!
  
-## Пакет от Akarui Development
+## Это пакет от Akarui Development
 
 <p align="center">
   <a href="https://aoi.js.org/invite">
