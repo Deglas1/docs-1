@@ -1,8 +1,8 @@
 # $lerefAvatar
-desc
+Возвращает аватарку владельца Akarui Development
 ### Использование
 ```php
-$lerefAvatarnull
+$lerefAvatar
 ```
 
 ## Пример(ы)
@@ -11,7 +11,7 @@ $lerefAvatarnull
 bot.command({
   name: '$lerefAvatar',
   code: `
-$lerefAvatarnull`
-// Возвращает: ...
+$lerefAvatar`
+// Возвращает аватар 
 })
 ```
