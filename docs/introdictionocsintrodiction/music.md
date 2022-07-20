@@ -38,3 +38,56 @@ loader.load(bot.cmd, "./Commands/commands/"); //загрузчик обычны�
 loader.load(voice.cmd, "./Commands/voice/"); //загрузчик музыкальных команд
 ```
 }
+## Использование класса Voice
+
+Поскольку мы добавили класс Voice в индекс.js и загрузчик в голосовую папку, настройка класса Voice завершена. Давайте создадим некоторые голосовые команды.
+## Play(Воспроизвести)
+```js
+//Commands/commands/play.js
+module.exports = {
+  name: "play youtube",
+  $if: "v4", //включение псевдо $if
+  code: `
+    $let[msg;$playTrack[youtube;$message]]
+
+    $if[$hasPlayer==false]
+        $joinVc
+    $endif
+
+    $onlyif[($voiceId[$clientId]!=)&&($voiceId[$clientId]==$voiceId);ты не в том же канале]
+    $onlyif[$voiceId!=;Зайди в голосовой канал прежде чем использовать команду]
+    `,
+};
+```
+## Queue(Очередь)
+```js
+//Commands/commands/queue.js
+module.exports = {
+  name: "queue",
+  code: `
+   $title[1;Queue]
+   $author[1;Запрошено $usertag;$authorAvatar]
+   $description[1;$queue[$if[$message==;1;$message]]]
+   $footer[1;количество песен ->$queueLength]
+   $color[1;RANDOM]
+   $addTimestamp[1]
+    `,
+};
+```
+## onTrackStart ивент
+```js
+//Commands/voice/trackStart.js
+module.exports = {
+  name: "отправить когда трек запуститься", //опционально
+  type : "trackStart",
+  channel : "$channelId",
+  code: `
+      $title[1;Сейчас играет...]
+      $description[1;$if[$musicEventData[info.description]==;Описание не доступно;$musicEventData[info.description]]]
+      $color[1;RANDOM]
+      $author[1;$musicEventData[info.title]]
+      $image[1;$musicEventData[info.thumbnail]]
+    `,
+};
+```
+
