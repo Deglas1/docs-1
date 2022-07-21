@@ -18,6 +18,6 @@ bot.command({
   name: '$status',
   code: `
 $status[userId?;guildId?]`
-// Возвращает: ...
+// Возвращает: dnd, online, invisible, idle
 })
 ```
