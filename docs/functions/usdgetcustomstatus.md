@@ -1,9 +1,10 @@
 # $getCustomStatus
-desc
+Эта функция возвращает пользовательский статус данного пользователя, если он у него есть
 ### Использование
 ```php
-$getCustomStatus[userId?;guildId?;type?]
+$getCustomStatus[userId?;guildId?;emoji/state?]
 ```
+emoji - Текст статуса, emoji - эмодзи статуса
 
 ### Опции
 
