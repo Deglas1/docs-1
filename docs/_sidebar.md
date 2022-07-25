@@ -2,7 +2,7 @@
   * [Работа с пакетом](introduction/first-wrok-to-package.md)
   * [Музыка](introduction/music.md)
   * [Переменные](introduction/variables.md)
-  * [База данных](introruction/database.md)
+  * [База данных](introduction/database.md)
   * [Статусы бота](introduction/status.md)
   * [Обратные вызовы](introduction/callbacks.md)
   * [Пользовательские функции](introduction/custom-functions.md)
