@@ -6,6 +6,8 @@
   * [Статусы бота](introduction/status.md)
   * [Обратные вызовы](introduction/callbacks.md)
   * [Таймеры](introduction/timeouts.md)
+  * [Загрузчик команд](introduction/command-handler.md)
+  * [Парсеры](introduction/parsers.md)
   * [Пользовательские функции](introduction/custom-functions.md)
   * [Пользовательские события](introduction/custom-events.md)
 
