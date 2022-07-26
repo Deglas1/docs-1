@@ -1,5 +1,5 @@
 # $bulk
-desc
+бета
 ### Использование
 ```php
 $bulk[option]
