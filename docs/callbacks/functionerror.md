@@ -1,5 +1,5 @@
 # functionError
-Выполняет код, когда бот выводит ошибку от класса AoiError. Функция для получения информации о ошибке используйте функцию [$handleError](functions/usdhandleerror.md)
+Выполняет код, когда бот выводит ошибку от класса AoiError. Для получения информации о ошибке используйте функцию [$handleError](functions/usdhandleerror.md)
 
 ### Использование
 ```php
