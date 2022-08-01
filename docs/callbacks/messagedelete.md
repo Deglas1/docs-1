@@ -1,8 +1,8 @@
 # messageDelete
-desc
+Срабатывает когда кто-либо удаляет своё сообщение на сервере
 ### Использование
 ```php
-bot.onmessageDelete()
+bot.onМessageDelete()
 bot.messageDeleteCommand
 ```
 ## Пример(ы)
