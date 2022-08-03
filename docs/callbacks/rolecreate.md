@@ -12,7 +12,8 @@ bot.roleCreatecommand({
   name: 'roleCreate',
   code: `
 Была создана новая роль: $newRole[name]!
+$dm[$botOwnerID]
 `
-// Возвращает: Была создана новая роль: Deglas Gay
+// Возвращает: Была создана новая роль: Deglas Gay!
 })
 ```
