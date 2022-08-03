@@ -1,5 +1,5 @@
 # roleUpdate
-desc
+Сообщает об обновлении роли
 ### Использование
 ```php
 bot.onroleUpdate()
