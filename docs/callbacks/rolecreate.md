@@ -1,5 +1,5 @@
 # roleCreate
-desc
+Сообщает о создании новой роли
 ### Использование
 ```php
 bot.onroleCreate()
