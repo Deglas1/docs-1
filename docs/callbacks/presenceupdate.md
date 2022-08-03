@@ -1,5 +1,5 @@
 # presenceUpdate
-desc
+Сообщает об обновлении статуса пользователя 
 ### Использование
 ```php
 bot.onpresenceUpdate()
