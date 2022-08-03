@@ -11,7 +11,8 @@ bot.roleCreateCommand
 bot.roleCreatecommand({
   name: 'roleCreate',
   code: `
+Была создана новая роль: $newRole[name]!
 `
-// Возвращает: ...
+// Возвращает: Была создана новая роль: Deglas Legenda
 })
 ```
