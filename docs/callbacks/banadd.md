@@ -10,7 +10,8 @@ bot.banAddCommand
 ```javascript
 bot.banAddcommand({
   name: 'banAdd',
-  code: `Пользователь $usertag был забанен на сервере $serverName
+  code: `
+Пользователь $usertag был забанен на сервере $serverName
   $dm[$botownerid]
 `
 // Возвращает: ...
