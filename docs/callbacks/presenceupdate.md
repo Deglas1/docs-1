@@ -11,7 +11,11 @@ bot.presenceUpdateCommand
 bot.presenceUpdatecommand({
   name: 'presenceUpdate',
   code: `
+$username обновил статус!
+Старый статус:  $oldPresence[status]
+$dm[$botOwnerID]
 `
-// Возвращает: ...
+// Возвращает: ! Big Boy Deglas#5497 обновил статус!
+Старый статус: 
 })
 ```
